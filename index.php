@@ -1,62 +1,28 @@
 <!DOCTYPE html> 
 <html lang="en">
 <head>
-<title>Nick Such's Personal Dashboard</title>
-<link rel="stylesheet" href="./style.css" type="text/css" media="screen" /> 
-<link rel="stylesheet" href="./style.css" type="text/css" media="handheld" /> 
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> 
-<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="./csspopup.js"></script>
-<script language="javascript">AC_FL_RunContent = 0;</script>
-<script src="AC_RunActiveContent.js" language="javascript"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<script type="text/javascript">
+	<title>Nick Such's Personal Dashboard</title>
+	<link rel="stylesheet" href="./style.css" type="text/css" media="screen" /> 
+	<link rel="stylesheet" href="./style.css" type="text/css" media="handheld" /> 
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> 
+	<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-10921055-7']);
-  _gaq.push(['_trackPageview']);
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-10921055-7']);
+	  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
 
-</script>
-
+	</script>
 </head>
 
 <body>
-
-<!-- blanket -->
-	<div id="blanket" style="display:none;"></div>
-<!-- blanket -->
-<!-- popups -->
-	<div class="popUpDiv" id="NickSuch" style="display:none;">
-		<p><a href="./index.php#" onclick="popup(&#39;NickSuch&#39;)">Click Me To Close</a></p>
-		<br />
-		<img src="./images/tenants/logos/awesometouch.jpg" alt="AwesomeTouch logo" class="company_logo" />
-		<br />
-		<img src="./images/tenants/people/nick_such.jpg" alt="Pic of Nick" class="face" />
-		<ul>
-			<li>Name: Nick Such</li>
-			<li>Company: AwesomeTouch</li>
-			<li>Title: CEO</li>
-			<li>E-mail: nick@awesometouch.org</li>
-			<li>Phone: (859) 472-4219</li>
-		</ul>
-	</div>	
-	<div class="popUpDiv" id="nextington" style="display:none;">
-		<p><a href="./index.php#" onclick="popup(&#39;nextington&#39;)">Click Me To Close</a></p>
-		<br />
-		<img src="./images/initiatives/nextington.png" alt="Nextington logo" class="company_logo" />
-		<ul>
-			<li>Name: Nextington</li>
-			<li>Description: People &amp; projects that represent “What’s next in Lex”</li>
-			<li>E-mail: founders@awesomeinc.org</li>
-		</ul>
-	</div>
-<!-- popups -->
 
 <!-- header -->
 <div id="header">
