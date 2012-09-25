@@ -1,4 +1,4 @@
-This is the code used to run [Nick Such's Personal Dashboard](http://nicksuch.com/nick/dashboard/), a Quantified Self side project.
+This is the code used to run [Nick Such's Personal Dashboard](http://nicksuch.com/nick/dashboard/), a Quantified Self project.
 
 It makes heavy use of Google Docs as a data store. That's convenient for some scenarios, but not very scalable. It should be changed :)
 
