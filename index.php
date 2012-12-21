@@ -45,7 +45,7 @@
 					<h2>Sleep</h2>
 				</div>
 				<div id="sleep_last" class="content_box">
-					<img src="http://dl.dropbox.com/u/1700083/sleepgraph/sleepgraph_<?php $yesterday = time() - (24*60*60); echo date('ymd', $yesterday); ?>.jpg" alt="Nick's Sleepgraph for <?php echo date('l jS \of F Y', $yesterday); ?>" width="318px" />
+					<img src="http://dl.dropbox.com/u/1700083/sleepgraph/sleepgraph_<?php $yesterday = time() - (24*60*60); echo date('ymd', $yesterday); ?>.png" alt="Nick's Sleepgraph for <?php echo date('l jS \of F Y', $yesterday); ?>" width="318px" />
 					<p>
 						<?php
 							$cell = date('z') + 230;
